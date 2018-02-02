@@ -1,4 +1,4 @@
-# Valigator
+# Valigator 🐊
 
 ## Overview 
 validate standards for a project through specifications
