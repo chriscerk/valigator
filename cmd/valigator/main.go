@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"time"
 )
 
@@ -26,6 +28,6 @@ func main() {
 	}
 
 	fmt.Println("All Scanning complete")
-	//fmt.Println("Press 'Enter' to end...")
-	//bufio.NewReader(os.Stdin).ReadBytes('\n')
+	fmt.Println("Press 'Enter' to end...")
+	bufio.NewReader(os.Stdin).ReadBytes('\n')
 }

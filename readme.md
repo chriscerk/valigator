@@ -28,12 +28,16 @@ run `valigator.exe` with a `specifications.json` file at the root of your projec
 ]
 ```
 
+## Run
+1. `cd cmd/valigator`
+2. `go run *.go`
+
 ## Compile
 
-## Linux Bash 
-1. `cd src`
+### Linux Bash 
+1. `cd cmd/valigator`
 2. `go build -o ../../bin/valigator.exe *.go`
 
-## Windows Cmd
-1. `cd src`
+### Windows Cmd
+1. `cd cmd/valigator`
 2. `go build && move valigator.exe ../../bin/`

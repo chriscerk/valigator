@@ -16,7 +16,7 @@
         "resolution": "Add this file to your project"
    },
     {
-        "name": "hi-finder",
+        "name": "hi must exist",
         "contains": true,
         "pattern": "hi",
         "filename": "testDir/testNestedDir/otherRootFile.2.txt",
@@ -24,11 +24,11 @@
         "resolution": "Include hi in all files"
     },
     {
-        "name": "hi-finder",
+        "name": "sit not allowed",
         "contains": false,
-        "pattern": "hi",
+        "pattern": "sit",
         "filename": "testDir/testNestedDir/otherRootFile.2.txt",
-        "error": "Hi should not exist in this file",
-        "resolution": "Disclude hi in this file"
+        "error": "Sit should not exist in this file",
+        "resolution": "Disclude sit in this file"
     }
 ]
