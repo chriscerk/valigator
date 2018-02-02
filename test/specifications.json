@@ -1,0 +1,34 @@
+[
+    {
+        "name": "project-standards",
+        "contains": true,
+        "pattern": "cerk-(\\w+)-(\\w+)-(sys|proc|exp|del)",
+        "filename": "testDir/rootFile1.txt",
+        "resolution": "Name your projects correctly",
+        "error": "Project named incorrectly"
+    },
+    {
+        "name": "non-existing-file",
+        "contains": true,
+        "pattern": "bla",
+        "filename": "idontexist.txt",
+        "error": "File not found",
+        "resolution": "Add this file to your project"
+   },
+    {
+        "name": "hi-finder",
+        "contains": true,
+        "pattern": "hi",
+        "filename": "testDir/testNestedDir/otherRootFile.2.txt",
+        "error": "Hi cannot be found in all files",
+        "resolution": "Include hi in all files"
+    },
+    {
+        "name": "hi-finder",
+        "contains": false,
+        "pattern": "hi",
+        "filename": "testDir/testNestedDir/otherRootFile.2.txt",
+        "error": "Hi should not exist in this file",
+        "resolution": "Disclude hi in this file"
+    }
+]
